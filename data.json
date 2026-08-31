@@ -1,0 +1,108 @@
+{
+  "firstName": "Ynah",
+  "lastName": "Umayam",
+  "phoneNumber": "+639064495395",
+  "email": "ynah.rosal.umayam@gmail.com",
+  "role": "Frontend Engineer",
+  "resumeLink": "",
+  "tagline": "A frontend engineer and a problem solver.",
+  "message": "I'm passionate at crafting beautiful and functional web experiences. With a blend of creativity and technical expertise, I transform ideas into engaging, user-friendly websites and applications.<br>Let's build something amazing together!",
+  "about": "I'm a Senior Frontend Engineer with a love for clean code, accessible design, and intuitive user experiences. <br>My journey in web development started back in high school where I was first introduced to an actual computer. With just the computers in our school's computer lab, I tried building websites using just HTML, CSS and Vanilla JS. Since then, I've had the amazing experience of learning various programming languages, frameworks, tools and libraries and the privilege of working on a diverse range of projects. <br>With my years of experience, here is what I can offer for your new project or existing application:",
+  "services": [
+    {
+      "name": "Single-page apps",
+      "description": "With my extensive experience in Angular, I can build full scale web applications from the grown up with API integration, route guards, complex forms, state management and any other features using modern and industry standard tools and libraries."
+    },
+    {
+      "name": "E2E test automation",
+      "description": "Using my knowledge in Cypress, Playwright, Storybook and CI/CD, I can setup an test automation that checks the E2E flow of your web application to reduce the overall effort for manual regression testing during major dependency upgrades and complex code changes."
+    },
+    {
+      "name": "Solution design consultation",
+      "description": "I have created frontend solutions for multiple features in digital banking space ranging from payment solution, process digitization, third party software integration. Tell me what would like to achieve and I can plan and strategize how it can be done."
+    }
+  ],
+  "experiences": [
+    {
+      "duration": "2025-Present",
+      "company": "MyBudget Asia, Inc.",
+      "heading": "Senior Frontend Developer",
+      "details": [
+        "Supporting multiple Angular and React applications for personal budgetting system, including internal tools, from Kubernetes configurations and actual frontend feature development to Firebase app integration, and played a major role in successfully onboarding these applications to Australia, and New Zealand."
+      ]
+    },
+    {
+      "duration": "2021-2025",
+      "company": "Macquarie Group Services, Inc.",
+      "heading": "Stream Lead - Adviser Online",
+      "details": [
+        "Led cross-functional feature teams in an Agile environment, ensuring timely delivery of more than 30 payment and deposit system features on a digital self-service portal designed for advisers."
+      ]
+    },
+    {
+      "duration": "2020-2021",
+      "company": "Macquarie Group Services, Inc.",
+      "heading": "Frontend Engineer - Adviser Online",
+      "details": [
+        "Developed features for managing Superannuation and Pension accounts on a digital self-service portal designed for advisers.",
+        "Migrated from AngularJS to Angular 5 to comply with security and tech risk and for a more performant application and a better developer experience."
+      ]
+    },
+    {
+      "duration": "2019-2020",
+      "company": "Macquarie Group Services, Inc.",
+      "heading": "Fullstack Engineer - Wrap Online",
+      "details": [
+        "Worked as a full-stack engineer who supported a legacy wealth system for generating aggregated portfolio review reports using AngularJS for the frontend and Java Spring and Apache Maven for backend development."
+      ]
+    },
+    {
+      "duration": "2018-2019",
+      "company": "Fujitsu Philippines Global Delivery Center",
+      "heading": "Team Lead - G3CC",
+      "details": [
+        "Designed a user interface, developed prototypes, and did proof of concepts for an application that translates AI-generated data into graphs using AngularJS and Angular Material."
+      ]
+    },
+    {
+      "duration": "2016-2018",
+      "company": "Fujitsu Philippines Global Delivery Center",
+      "heading": "Fullstack Engineer - JRA",
+      "details": [
+        "Led the development team of 6 to create a full-stack application using proprietary software based on Java Spring Boot for a sports betting site."
+      ]
+    }
+  ],
+  "techStack": {
+    "programmingLanguages": [
+      "HTML5",
+      "Javascript",
+      "Typescript",
+      "CSS",
+      "SASS",
+      "Java"
+    ],
+    "frameworksAndLibraries": [
+      "Angular",
+      "React",
+      "Cypress",
+      "Jasmine",
+      "Jest",
+      "Tailwind CSS",
+      "NodeJS",
+      "NgRx"
+    ],
+    "toolsAndPlatforms": [
+      "Google Cloud",
+      "Git",
+      "Bitbucket",
+      "Github",
+      "Nx",
+      "Figma"
+    ]
+  },
+  "socials": [
+    { "id": "linkedin", "link": "https://www.linkedin.com/in/ynah-rosal-umayam/" },
+    { "id": "github", "link": "https://github.com/ynah-umayam" }
+  ]
+}

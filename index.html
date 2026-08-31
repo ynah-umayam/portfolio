@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name | Role</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo montserrat" id="fullName"></a>
+      <i class="bx bx-menu" id="menuIcon"></i>
+      <nav class="navbar">
+        <a href="#services">Services</a>
+        <a href="#techStack">Tech Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-wrapper">
+        <div class="home-content">
+          <h1 class="montserrat">I'm <span id="firstName"></span>.</h1>
+          <h3 id="tagline"></h3>
+          <div id="message"></div>
+          <div class="home-links">
+            <div class="social-links"></div>
+            <div class="btn-group" id="resumeLink"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">SERVICES</h2>
+
+      <div class="content">
+        <div class="service-about" id="serviceAbout"></div>
+        <div class="service-items" id="serviceItems"></div>
+      </div>
+    </section>
+
+    <section class="tech-stack" id="techStack">
+      <h2 class="heading">TECH STACK</h2>
+      <h3 class="sub-heading">Programming Languages</h3>
+      <div class="tech-stack-wrapper" id="programmingLanguages"></div>
+      <h3 class="sub-heading">Frameworks & Libraries</h3>
+      <div class="tech-stack-wrapper" id="frameworksAndLibraries"></div>
+      <h4 class="sub-heading">Tools & Platforms</h4>
+      <div class="tech-stack-wrapper" id="toolsAndPlatforms"></div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading">EXPERIENCE</h2>
+
+      <div class="timeline-items" id="experienceTimeline"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">GET IN TOUCH</span></h2>
+
+      <div class="content">
+        <form name="contact-form">
+          <div class="input-group">
+            <div class="input-box">
+              <div class="field">
+                <input id="contactName" type="text" placeholder="Full name" />
+                <p class="field-error-message"></p>
+              </div>
+              <div class="field">
+                <input id="contactSubject" type="text" placeholder="Subject" />
+                <p class="field-error-message"></p>
+              </div>
+              <div class="field">
+                <textarea
+                  id="contactBody"
+                  name=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Your message"
+                ></textarea>
+                <p class="field-error-message"></p>
+              </div>
+              <button type="submit" class="btn"">Send</button>
+            </div>
+          </div>
+        </form>
+        <div class="contact-details-wrapper">
+          <p class="contact-details-message">
+            I would love to hear from you! Whether you have new opportunities for me, or want to
+            collaborate on a project, don't hesitate to connect with me.
+          </p>
+          <div class="contact-details" id="contactDetails"></div>
+          <div class="social-links"></div>
+      </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="copyright">&#169; 2026 Ynah Umayam | All rights reserved</p>
+    </footer>
+    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/display.js"></script>
+  </body>
+</html>
