@@ -113,7 +113,11 @@ loadPortfolioData().then(() => {
   renderServices(porfolioData.about, porfolioData.services);
 
   if (porfolioData.resumeLink) {
-    document.querySelector('resumeLink').innerHTML = `<a href="${porfolioData.resumeLink}" class="btn">Resume</a>`;
+    document.querySelector('#resumeLink').innerHTML = `
+      <a href="${porfolioData.resumeLink}" class="btn" target="_blank">
+        Resume
+      </a>
+    `;
   }
 
   renderTechStackItems(

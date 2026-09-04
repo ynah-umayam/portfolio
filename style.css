@@ -90,7 +90,7 @@ section {
 .home {
   display: flex;
   align-items: center;
-  background: url("https://logan-projects.web.app/image.jpeg");
+  background: url("./assets/hero-image.jpeg");
   background-size: cover;                    
   background-repeat: no-repeat;
   background-position: center center;
